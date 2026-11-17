@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-navy: #1F2B45;
+    --color-navy-deep: #151E32;
+    --color-silver: #A3A9AE;
+    --color-crimson: #B24D60;
+    --color-sand: #D5BA9E;
+    --color-ink-light: #F4F1EC;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #1F2B45;
+    color: #F4F1EC;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+.font-display {
+  font-family: 'Monument Extended', 'Syne', sans-serif;
+}
+
+.font-sans-body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* 3D Perspective Cube Stage */
+.cube-scene {
+  perspective: 1600px;
+  perspective-origin: 50% 50%;
+}
+
+.cube-body {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.cube-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Architectural 3D Extruded Cube Card */
+.perspective-block-wrap {
+  perspective: 1100px;
+}
+
+.perspective-block {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.perspective-block:hover {
+  transform: translate3d(-4px, 4px, 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .perspective-block,
+  .cube-body {
+    transition: none !important;
+  }
+}
