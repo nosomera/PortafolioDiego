@@ -88,12 +88,12 @@ export const INITIAL_PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Una muerte en el espacio',
     category: 'Storyboards',
     description:
-      'Espacio asignado para las láminas PNG/JPG o animatic MP4 del storyboard en la nave espacial.',
+      'Documento de diseño de muerte en el espacio',
     year: '2026',
     accentColor: '#B24D60',
     media: {
-      kind: 'empty',
-      url: '',
+      kind: 'pdf',
+      url: 'https://firebasestorage.googleapis.com/v0/b/messapp-bdcdd.firebasestorage.app/o/Una%20muerte%20en%20el%20espacio%20Final.pdf?alt=media&token=f41e3754-70cd-4978-804c-30dc59c722ea',
     },
     isDefault: true,
   },
@@ -102,26 +102,26 @@ export const INITIAL_PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Western Espacial — Props & Concept',
     category: 'Concept Art',
     description:
-      'Espacio para subir ilustraciones PNG o JPG de props, armas futuristas y criaturas.',
+      'Concept del personaje principal del wostern',
     year: '2026',
     accentColor: '#D5BA9E',
     media: {
-      kind: 'empty',
-      url: '',
+      kind: 'png',
+      url: 'https://firebasestorage.googleapis.com/v0/b/messapp-bdcdd.firebasestorage.app/o/Personaje%20Pose%201.png?alt=media&token=27bfa503-a864-41b6-9f57-9486ed10b90f',
     },
     isDefault: true,
   },
   {
     id: 'item-stop-motion',
-    title: 'Corto Stop Motion & 3D',
+    title: 'Modelado 3D',
     category: 'Animación 3D',
     description:
-      'Espacio preparado para reproducir tu archivo MP4 de animación 3D o stop motion.',
+      'Muestra de dargon esculpido en zbrush',
     year: '2026',
     accentColor: '#A3A9AE',
     media: {
-      kind: 'empty',
-      url: '',
+      kind: 'mp4',
+      url: 'https://firebasestorage.googleapis.com/v0/b/messapp-bdcdd.firebasestorage.app/o/Sequence%2001.mp4?alt=media&token=1e6341b1-0ae3-4827-ad4a-92d1bda873e9',
     },
     isDefault: true,
   },
@@ -130,27 +130,75 @@ export const INITIAL_PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Diseño de Personajes & 2D',
     category: 'Animación 2D',
     description:
-      'Espacio para tus hojas de personaje, turnarounds en PNG/JPG o pruebas de línea en MP4.',
+      'Diseño de personaje a color',
     year: '2026',
     accentColor: '#B24D60',
     media: {
-      kind: 'empty',
-      url: '',
+      kind: 'png',
+      url: 'https://firebasestorage.googleapis.com/v0/b/messapp-bdcdd.firebasestorage.app/o/Personaje%20turn%20around%20with%20color.png?alt=media&token=dff29385-4efd-41b7-be75-9b8ccaffe812',
     },
     isDefault: true,
   },
   {
     id: 'item-dossier-pdf',
-    title: 'Anexo Técnico o Dossier PDF',
+    title: 'Ilustracion basada en Cult of Lamp',
     category: 'Documento PDF',
     description:
-      'Espacio adicional para agregar otro guion gráfico, biblia de animación o dossier en formato PDF.',
+      'Ilustracion basada en el estilo visual de Cult of Lamp',
     year: '2026',
     accentColor: '#D5BA9E',
     media: {
-      kind: 'empty',
-      url: '',
+      kind: 'png',
+      url: 'https://firebasestorage.googleapis.com/v0/b/messapp-bdcdd.firebasestorage.app/o/Ejercicio%203D%203.2%20Final.png?alt=media&token=9095dea4-2580-4ac9-959d-c29ef286cdc6',
     },
     isDefault: true,
   },
+
+    {
+    id: 'item-dossier-pdf',
+    title: 'Sketch de una animacion',
+    category: 'Animación 2D',
+    description:
+      'Animacion de estudio y prueba basado en una idea sobre el choque de un sudmarino',
+    year: '2026',
+    accentColor: '#D5BA9E',
+    media: {
+      kind: 'mp4',
+      url: 'https://firebasestorage.googleapis.com/v0/b/messapp-bdcdd.firebasestorage.app/o/Primera%20fase_1.mp4?alt=media&token=dda52ed6-a822-45a2-951a-42ae17062b2f',
+    },
+    isDefault: true,
+  },
+
+      {
+    id: 'item-dossier-pdf',
+    title: 'Stop Motion',
+    category: 'Animación 3D',
+    description:
+      'Una muestra de una animacion Stop Motion',
+    year: '2026',
+    accentColor: '#D5BA9E',
+    media: {
+      kind: 'mp4',
+      url: 'https://firebasestorage.googleapis.com/v0/b/messapp-bdcdd.firebasestorage.app/o/Diego%20Andres%20Pacheco.mp4?alt=media&token=3d879021-7b3b-43fa-b2ff-a2bc8fce2c7c',
+    },
+    isDefault: true,
+  },
+
+  
+      {
+    id: 'item-dossier-pdf',
+    title: 'Corporacion Universitaria Taller 5',
+    category: 'Concept Art',
+    description:
+      'Institucion de aprendizaje Taller 5',
+    year: '2026',
+    accentColor: '#D5BA9E',
+    media: {
+      kind: 'png',
+      url: 'https://firebasestorage.googleapis.com/v0/b/messapp-bdcdd.firebasestorage.app/o/LOGO_T5_500X500_NEGATIVO.png?alt=media&token=de30cb5b-e9ba-47e2-b2aa-7313b7d1ec62',
+    },
+    isDefault: true,
+  },
+
+
 ];
